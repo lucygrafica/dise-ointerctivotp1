@@ -1,0 +1,205 @@
+*{box-sizing: border-box;}
+
+.contenedor-general {width: 1140px;}
+
+
+body {font-family:'Roboto', sans-serif;}
+
+.contenedor-general {
+width: 1140px;
+margin: 0 auto;
+background-color: #faf7f7;
+padding: 15px;
+}
+
+nav {
+    background-color: #ededec;
+padding: 0px 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.contenedor-menu {
+   display: flex;
+   align-content: baseline;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+       }
+
+a {
+    text-decoration: none;
+    color: #7583C0;
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+
+header {background-image: url(./Imagenes/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: -40px;
+    margin-top: -13px;
+   }
+
+.columnas {
+    display: flex;
+   align-content: end;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+h1 {
+    font-family:'Lato', sans-serif;
+    font-size: 63px;
+    color: #eeeded;
+    margin-top: 15px;
+    margin-right: -11px;
+    align-items: center;
+    justify-content: center;
+    }
+
+.sub {font-family:'Lato', sans-serif;
+    font-weight: bold;        
+    font-size: 24px;
+    color: #ecb877;
+    margin-top: -29px;
+    width: 478px;
+    display: flex;
+    justify-content: center;
+    }
+
+.contenedor-sobremi {
+    background-color: #F2F2F2;    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 21px;
+    margin-bottom: 0px;
+    }
+    .contenedor-parrafo {
+        padding: 20px 0px;
+    }
+  
+h2 {
+    color: #7583C0;
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+     }
+
+.hola {
+    font-size: 23px;
+    font-weight: 200;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+    .contenedor-servicios {
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 42px;
+        margin-top: 3px;
+        padding: 0px 0px;
+    }
+    .servicioscont {
+        padding: 5px;
+
+    }
+
+.cajas-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-end;
+    }
+
+h3 {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: #3a5185;
+}
+
+.logo-arq {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo-cm {
+    display: flex;
+    }
+
+.Programas {
+    background-color:#ededec;
+    margin:  -42px 0px;
+    padding: 42px 0px;
+     }
+
+     .dos {
+         display: list-item;
+         font-size: 23px;    
+        color: #3a5185;
+     }
+
+     .columnas-programas {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         margin: -39px 0px;
+         padding: 0px 97px;
+              }
+
+.Porfolio {
+    background-color: rgb(253, 252, 252);
+     padding: 9px 37px; 
+    margin: 45px 0px
+}
+
+.Tres-columas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.antecedentes { background-color: #ededec;
+    margin:  -44px 0px;
+    padding: 33px 0px;}
+
+
+  .contacto-redes {
+    background-color: #d4e1fa;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+      }  
+
+  .contactoRS {
+    display: flex;
+    align-content: baseline;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+  .RD { 
+  font-size: 40px;    
+  color: #797a7d;
+  font-weight: bolder;
+  }
+
+  p {
+      font-size: 20px;
+     
+  }
+
+  footer {
+      height: 50px
+  }
